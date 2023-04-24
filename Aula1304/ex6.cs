@@ -11,7 +11,7 @@ namespace Aula1304
         public static void Exercicio6()
         {
             //int[] entradasNumericas = Program.LerEntradas(10);
-           int[] entradasNumericas = Program.GerarAleatorios(5);
+           int[] entradasNumericas = Program.GerarAleatorios(99);
            Program.ImprimirNumeros(entradasNumericas);
            int n = Program.SomaImpar(entradasNumericas);
         }

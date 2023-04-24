@@ -92,7 +92,7 @@
 
             for (int i = 0; i < nr; i++)
             {
-                numeros[i] = r.Next(0, 999); // gerando um número aleatório e adicionando ao vetor
+                numeros[i] = r.Next(0, 100); // gerando um número aleatório e adicionando ao vetor
             }
 
             return numeros; // retornando o vetor com os números aleatórios gerados
